@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name USB_Saturn_obdev-rescue)(type Legacy)(uri ${KIPRJMOD}/USB_Saturn_obdev-rescue.lib)(options "")(descr ""))
+)

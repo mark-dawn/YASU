@@ -1,0 +1,12 @@
+software/.obj
+software/.obj/*
+software/v-usb
+hardware/out
+hardware/out/*
+hardware/rescue-backup
+hardware/rescue-backup/*
+*.ihex
+*.map
+*.eps
+*.png
+*.pdf
