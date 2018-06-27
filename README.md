@@ -1,7 +1,7 @@
 # YASU
 
 ## What's this?
-__Yet Another Saturn__ to USB is a small pet project with 3 aims:
+__Yet Another Saturn__ to __USB__ is a small pet project with 3 aims:
 1. Connect a couple of Saturn controllers to my PC for retrogaming
 2. Learn how the USB protocol works
 3. Learn how to make a PCB and other hardware shenanigans
