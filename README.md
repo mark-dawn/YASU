@@ -11,16 +11,20 @@ and are usable both in practice and for learning purposes.
 
 ## Hardware support
 For now only the standard Saturn controller is supported, and has been tested with Japanese `HSS-0101` controllers.
+
 However the code is structured so it should be easy to add support for other Saturn peripherals;
 for sure, support for the _3D Controller_ is planned since I own one of those.
+
 Support for the Saturn Mouse might be harder since the board should reconfigure itself as a pointer HID device at enumeration time.
 
 ## Note about contacts
 The connection between board and the Saturn plug is handled quite rudimentary at the moment.
 Flat naked metal pads on tabs that fit inside the cavity of the plug are present,
 but cannot make direct contact with the pads in the plug.
+
 For now the "intended" way is to solder extension metal pads to make contact,
 but it is quite hard to solder those manually and the connection can act shaky.
+
 In the future I plan to swap those out for flat pogo pins, or if no suitable part exists, use a proper 3D printed receptacle.
 
 ## Credits
