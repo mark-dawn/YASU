@@ -41,7 +41,7 @@
  *  0  0 |  Z  Y  X  R
  *  1  0 |  B  C  A  S
  *  0  1 |  ^  v  <  >
- *  1  1 |  -  -  -  L   <- FUCKING SEVEN BUTTONS
+ *  1  1 |  -  -  -  L   <- FUCKING SEVENTH BUTTON
  *
  *  we need two bytes to encode this into the usb descriptor
  */
