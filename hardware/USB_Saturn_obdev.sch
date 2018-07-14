@@ -411,7 +411,7 @@ U 1 1 59A0074F
 P 6550 2650
 F 0 "CON1" H 6445 2890 50  0000 C CNN
 F 1 "AVR-ISP-6" H 6285 2420 50  0000 L BNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.00mm" V 6030 2690 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" V 6030 2690 50  0001 C CNN
 F 3 "" H 6525 2650 50  0001 C CNN
 	1    6550 2650
 	1    0    0    -1  
