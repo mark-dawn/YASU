@@ -1,50 +1,13 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# USB_Saturn_obdev-rescue:CONN_01X09-RESCUE-USB_Saturn_obdev
+# USB_Saturn_obdev-rescue_ATMEGA328-PU-atmel
 #
-DEF USB_Saturn_obdev-rescue:CONN_01X09-RESCUE-USB_Saturn_obdev J 0 40 Y N 1 F N
-F0 "J" 0 500 50 H V C CNN
-F1 "USB_Saturn_obdev-rescue:CONN_01X09-RESCUE-USB_Saturn_obdev" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
-$ENDFPLIST
-DRAW
-S -50 -395 10 -405 0 1 0 N
-S -50 -295 10 -305 0 1 0 N
-S -50 -195 10 -205 0 1 0 N
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 205 10 195 0 1 0 N
-S -50 305 10 295 0 1 0 N
-S -50 405 10 395 0 1 0 N
-S -50 450 50 -450 0 1 0 N
-X P1 1 -200 400 150 R 50 50 1 1 P
-X P2 2 -200 300 150 R 50 50 1 1 P
-X P3 3 -200 200 150 R 50 50 1 1 P
-X P4 4 -200 100 150 R 50 50 1 1 P
-X P5 5 -200 0 150 R 50 50 1 1 P
-X P6 6 -200 -100 150 R 50 50 1 1 P
-X P7 7 -200 -200 150 R 50 50 1 1 P
-X P8 8 -200 -300 150 R 50 50 1 1 P
-X P9 9 -200 -400 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# atmel:ATMEGA328-PU
-#
-DEF atmel:ATMEGA328-PU U 0 40 Y Y 1 F N
+DEF USB_Saturn_obdev-rescue_ATMEGA328-PU-atmel U 0 40 Y Y 1 F N
 F0 "U" -750 1250 50 H V L BNN
-F1 "atmel:ATMEGA328-PU" 400 -1400 50 H V L BNN
+F1 "USB_Saturn_obdev-rescue_ATMEGA328-PU-atmel" 400 -1400 50 H V L BNN
 F2 "DIL28" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATMEGA48A-PU ATMEGA48PA-PU ATMEGA88A-PU ATMEGA88PA-PU ATMEGA168PA-PU ATMEGA328-PU ATMEGA328P-PU
 $FPLIST
  28DIP-ELL600
  28dip600
@@ -82,11 +45,11 @@ X (PCINT6/XTAL1/TOSC1)PB6 9 1000 500 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# atmel:AVR-ISP-6
+# USB_Saturn_obdev-rescue_AVR-ISP-6-atmel
 #
-DEF atmel:AVR-ISP-6 CON 0 40 Y Y 1 F N
+DEF USB_Saturn_obdev-rescue_AVR-ISP-6-atmel CON 0 40 Y Y 1 F N
 F0 "CON" -105 240 50 H V C CNN
-F1 "atmel:AVR-ISP-6" -265 -230 50 H V L BNN
+F1 "USB_Saturn_obdev-rescue_AVR-ISP-6-atmel" -265 -230 50 H V L BNN
 F2 "AVR-ISP-6" -520 40 50 V I C CNN
 F3 "" -25 0 50 H I C CNN
 DRAW
@@ -110,11 +73,182 @@ X ~ 6 100 -100 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn:USB_B
+# USB_Saturn_obdev-rescue_C-device
 #
-DEF conn:USB_B J 0 40 Y Y 1 F N
+DEF USB_Saturn_obdev-rescue_C-device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "USB_Saturn_obdev-rescue_C-device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_CONN_01X09-RESCUE-USB_Saturn_obdev
+#
+DEF USB_Saturn_obdev-rescue_CONN_01X09-RESCUE-USB_Saturn_obdev J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "USB_Saturn_obdev-rescue_CONN_01X09-RESCUE-USB_Saturn_obdev" 100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
+$ENDFPLIST
+DRAW
+S -50 -395 10 -405 0 1 0 N
+S -50 -295 10 -305 0 1 0 N
+S -50 -195 10 -205 0 1 0 N
+S -50 -95 10 -105 0 1 0 N
+S -50 5 10 -5 0 1 0 N
+S -50 105 10 95 0 1 0 N
+S -50 205 10 195 0 1 0 N
+S -50 305 10 295 0 1 0 N
+S -50 405 10 395 0 1 0 N
+S -50 450 50 -450 0 1 0 N
+X P1 1 -200 400 150 R 50 50 1 1 P
+X P2 2 -200 300 150 R 50 50 1 1 P
+X P3 3 -200 200 150 R 50 50 1 1 P
+X P4 4 -200 100 150 R 50 50 1 1 P
+X P5 5 -200 0 150 R 50 50 1 1 P
+X P6 6 -200 -100 150 R 50 50 1 1 P
+X P7 7 -200 -200 150 R 50 50 1 1 P
+X P8 8 -200 -300 150 R 50 50 1 1 P
+X P9 9 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_CP1-device
+#
+DEF USB_Saturn_obdev-rescue_CP1-device C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "USB_Saturn_obdev-rescue_CP1-device" 25 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
+P 2 0 1 20 -80 30 80 30 N
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 70 -50 110 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_C_Small-device
+#
+DEF USB_Saturn_obdev-rescue_C_Small-device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "USB_Saturn_obdev-rescue_C_Small-device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_Crystal-device
+#
+DEF USB_Saturn_obdev-rescue_Crystal-device Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "USB_Saturn_obdev-rescue_Crystal-device" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_D_Zener-device
+#
+DEF USB_Saturn_obdev-rescue_D_Zener-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "USB_Saturn_obdev-rescue_D_Zener-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_R-device
+#
+DEF USB_Saturn_obdev-rescue_R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "USB_Saturn_obdev-rescue_R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_R_Small-device
+#
+DEF USB_Saturn_obdev-rescue_R_Small-device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "USB_Saturn_obdev-rescue_R_Small-device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Saturn_obdev-rescue_USB_B-conn
+#
+DEF USB_Saturn_obdev-rescue_USB_B-conn J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "conn:USB_B" -200 350 50 H V L CNN
+F1 "USB_Saturn_obdev-rescue_USB_B-conn" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -143,146 +277,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C
+# power_+5V
 #
-DEF device:C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:CP1
-#
-DEF device:CP1 C 0 10 N N 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "device:CP1" 25 -100 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
-P 2 0 1 20 -80 30 80 30 N
-P 2 0 1 0 -70 90 -30 90 N
-P 2 0 1 0 -50 70 -50 110 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 130 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:C_Small
-#
-DEF device:C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:Crystal
-#
-DEF device:Crystal Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "device:Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_Zener
-#
-DEF device:D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:R
-#
-DEF device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:R_Small
-#
-DEF device:R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "device:R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:+5V
-#
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -293,11 +292,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

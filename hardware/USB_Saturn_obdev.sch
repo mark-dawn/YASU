@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:USB_Saturn_obdev-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L atmel:ATMEGA328-PU U1
+L USB_Saturn_obdev-rescue:ATMEGA328-PU-atmel U1
 U 1 1 599F8C9A
 P 2800 3800
 F 0 "U1" H 2050 5050 50  0000 L BNN
 F 1 "ATMEGA328-PU" H 3200 2400 50  0000 L BNN
-F 2 "Housings_DIP:DIP-28_W7.62mm" H 2800 3800 50  0001 C CIN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2800 3800 50  0001 C CIN
 F 3 "" H 2800 3800 50  0001 C CNN
 	1    2800 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:USB_B J1
+L USB_Saturn_obdev-rescue:USB_B-conn J1
 U 1 1 599F903E
 P 7600 4550
 F 0 "J1" H 7400 5000 50  0000 L CNN
 F 1 "USB_B" H 7400 4900 50  0000 L CNN
-F 2 "Connectors:USB_B" H 7750 4500 50  0001 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 7750 4500 50  0001 C CNN
 F 3 "" H 7750 4500 50  0001 C CNN
 	1    7600 4550
 	-1   0    0    -1  
@@ -48,34 +48,34 @@ F 3 "" H 6900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L USB_Saturn_obdev-rescue:R-device R2
 U 1 1 599F9150
 P 5550 4500
 F 0 "R2" V 5630 4500 50  0000 C CNN
 F 1 "48o" V 5550 4500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 4500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 4500 50  0001 C CNN
 F 3 "" H 5550 4500 50  0001 C CNN
 	1    5550 4500
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R3
+L USB_Saturn_obdev-rescue:R-device R3
 U 1 1 599F9200
 P 5550 4700
 F 0 "R3" V 5630 4700 50  0000 C CNN
 F 1 "48o" V 5550 4700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 4700 50  0001 C CNN
 F 3 "" H 5550 4700 50  0001 C CNN
 	1    5550 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R4
+L USB_Saturn_obdev-rescue:R-device R4
 U 1 1 599F945D
 P 6300 4350
 F 0 "R4" V 6200 4350 50  0000 C CNN
 F 1 "1k5" V 6300 4350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 4350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 4350 50  0001 C CNN
 F 3 "" H 6300 4350 50  0001 C CNN
 	1    6300 4350
 	0    1    1    0   
@@ -93,23 +93,23 @@ F 3 "" H 6900 5150 50  0001 C CNN
 $EndComp
 NoConn ~ 1900 3300
 $Comp
-L device:C C2
+L USB_Saturn_obdev-rescue:C-device C2
 U 1 1 599FA76C
 P 1700 3150
 F 0 "C2" H 1725 3250 50  0000 L CNN
 F 1 "0u1" H 1725 3050 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1738 3000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 1738 3000 50  0001 C CNN
 F 3 "" H 1700 3150 50  0001 C CNN
 	1    1700 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP1 C1
+L USB_Saturn_obdev-rescue:CP1-device C1
 U 1 1 599FA7B3
 P 1200 3150
 F 0 "C1" H 1000 3250 50  0000 L CNN
 F 1 "10u" H 1000 3050 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 1200 3150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 1200 3150 50  0001 C CNN
 F 3 "" H 1200 3150 50  0001 C CNN
 	1    1200 3150
 	1    0    0    -1  
@@ -138,12 +138,12 @@ F 3 "" H 1450 5100 50  0001 C CNN
 $EndComp
 NoConn ~ 1900 3000
 $Comp
-L device:R R1
+L USB_Saturn_obdev-rescue:R-device R1
 U 1 1 599FC04B
 P 4700 4150
 F 0 "R1" V 4780 4150 50  0000 C CNN
 F 1 "22k" V 4700 4150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 4150 50  0001 C CNN
 F 3 "" H 4700 4150 50  0001 C CNN
 	1    4700 4150
 	0    1    1    0   
@@ -170,34 +170,34 @@ NoConn ~ 3800 4800
 NoConn ~ 3800 4900
 NoConn ~ 3800 5000
 $Comp
-L device:Crystal X1
+L USB_Saturn_obdev-rescue:Crystal-device X1
 U 1 1 599FD1AA
 P 4800 3350
 F 0 "X1" H 4800 3200 50  0000 C CNN
 F 1 "12M" V 4800 3350 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-4H_Vertical" H 4800 3350 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 4800 3350 50  0001 C CNN
 F 3 "" H 4800 3350 50  0001 C CNN
 	1    4800 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C3
+L USB_Saturn_obdev-rescue:C_Small-device C3
 U 1 1 599FD268
 P 5100 3200
 F 0 "C3" H 5110 3270 50  0000 L CNN
 F 1 "10n" V 5000 3150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5100 3200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5100 3200 50  0001 C CNN
 F 3 "" H 5100 3200 50  0001 C CNN
 	1    5100 3200
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C4
+L USB_Saturn_obdev-rescue:C_Small-device C4
 U 1 1 599FD363
 P 5100 3500
 F 0 "C4" H 5110 3570 50  0000 L CNN
 F 1 "10n" V 5000 3450 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5100 3500 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5100 3500 50  0001 C CNN
 F 3 "" H 5100 3500 50  0001 C CNN
 	1    5100 3500
 	0    1    1    0   
@@ -226,23 +226,23 @@ D3_1
 Text Label 3800 3200 0    60   ~ 0
 SCK
 $Comp
-L device:D_Zener D1
+L USB_Saturn_obdev-rescue:D_Zener-device D1
 U 1 1 599FD921
 P 6000 4900
 F 0 "D1" H 6000 5000 50  0000 C CNN
 F 1 "3v6" H 6000 4800 50  0000 C CNN
-F 2 "Diodes_THT:D_T-1_P5.08mm_Horizontal" H 6000 4900 50  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6000 4900 50  0001 C CNN
 F 3 "" H 6000 4900 50  0001 C CNN
 	1    6000 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D_Zener D2
+L USB_Saturn_obdev-rescue:D_Zener-device D2
 U 1 1 599FD9C5
 P 6300 4900
 F 0 "D2" H 6300 5000 50  0000 C CNN
 F 1 "3v6" H 6300 4800 50  0000 C CNN
-F 2 "Diodes_THT:D_T-1_P5.08mm_Horizontal" H 6300 4900 50  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6300 4900 50  0001 C CNN
 F 3 "" H 6300 4900 50  0001 C CNN
 	1    6300 4900
 	0    1    1    0   
@@ -406,12 +406,12 @@ Wire Wire Line
 Wire Wire Line
 	6000 2200 6000 2100
 $Comp
-L atmel:AVR-ISP-6 CON1
+L USB_Saturn_obdev-rescue:AVR-ISP-6-atmel CON1
 U 1 1 59A0074F
 P 6550 2650
 F 0 "CON1" H 6445 2890 50  0000 C CNN
 F 1 "AVR-ISP-6" H 6285 2420 50  0000 L BNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" V 6030 2690 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6030 2690 50  0001 C CNN
 F 3 "" H 6525 2650 50  0001 C CNN
 	1    6550 2650
 	1    0    0    -1  
@@ -603,23 +603,23 @@ Wire Wire Line
 Entry Wire Line
 	4250 4150 4350 4050
 $Comp
-L device:R_Small R5
+L USB_Saturn_obdev-rescue:R_Small-device R5
 U 1 1 59A07354
 P 9000 3800
 F 0 "R5" H 8875 3825 50  0000 L CNN
 F 1 "22k" H 8825 3750 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9000 3800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9000 3800 50  0001 C CNN
 F 3 "" H 9000 3800 50  0001 C CNN
 	1    9000 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R6
+L USB_Saturn_obdev-rescue:R_Small-device R6
 U 1 1 59A07412
 P 9300 3800
 F 0 "R6" H 9325 3825 50  0000 L CNN
 F 1 "22k" H 9325 3750 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9300 3800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9300 3800 50  0001 C CNN
 F 3 "" H 9300 3800 50  0001 C CNN
 	1    9300 3800
 	1    0    0    -1  
@@ -705,12 +705,12 @@ D+
 Text Label 7050 4650 0    60   ~ 0
 D-
 $Comp
-L device:CP1 C5
+L USB_Saturn_obdev-rescue:CP1-device C5
 U 1 1 59AC2F83
 P 1450 3150
 F 0 "C5" H 1250 3250 50  0000 L CNN
 F 1 "10u" H 1250 3050 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 1450 3150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 1450 3150 50  0001 C CNN
 F 3 "" H 1450 3150 50  0001 C CNN
 	1    1450 3150
 	1    0    0    -1  
