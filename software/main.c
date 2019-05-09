@@ -20,7 +20,7 @@ int __attribute__((OS_main)) main(void) {
     sei();
     // begin main loop
     while(1){
-        _delay_ms(10);
+        _delay_ms(2);
         for(uint8_t i = 0; i<2; i++) {
             if (cntr[i].upd) {cntr[i].upd(cntr[i].state, i);}
         }
