@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+
+  yasu:
+    image: ghcr.io/mark-dawn/yasu
+    build:
+      context: .
+    volumes:
+      - .:/source
