@@ -44,7 +44,7 @@ This project would have not been as easy as it was without various resources fro
 ## License
 All the repository is licensed under the GPL-3. See `LICENSE` for more info.
 
-    Copyright (C) 2018  Marco Albanesi
+    Copyright (C) 2018   M. A.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
